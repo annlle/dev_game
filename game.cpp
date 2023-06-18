@@ -59,6 +59,10 @@ int main(){
           a[i][j] = 1;
         } 
       }
+      if(c == 0){
+        cout << "Game ended!" << endl;
+        break;
+      }
       for(int i = 0; i < n; i++, cout << endl)
         for(int j = 0; j < m; j++) cout << a[i][j] << " ";
         cout << endl;
